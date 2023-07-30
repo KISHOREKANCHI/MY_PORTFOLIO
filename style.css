@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* height:400%; */
+}
+
+body{
+    background-color: rgb(1, 1, 41);
+    color:white
+    /* font-family:'Poppins', sans-serif; */
+}
+html{
+    height: 400%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(2, 2, 60);
+    /* z-index: 1; */
+    /* width:100%;
+    position: fixed;
+    top:0; */
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    padding:25px;
+    /* margin: 0 20px; */
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:blueviolet;
+    font-size: 1.15rem;
+    /* transform: scale(2,2); */
+}
+
+.left{
+    font-size: 1.5rem;
+}
+.right{
+    font-size: 1.2rem;
+    /* margin-top: 20px; */
+}
+
+.first{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+/* .first div{
+    width:30%
+} */
+.leftsection{
+    align-items: center;
+    /* margin-top: 50px; */
+    font-size:2.3rem;
+    width:35%;
+}
+.rightsection img{
+    width:80%;
+    margin-top: 50px;
+}
+.rightsection{
+    margin: 0 -78px;
+    width:30%;
+}
+
+#name{
+    color:blueviolet;
+}
+.element{
+    font-size: 2.3rem;
+    color:blueviolet;
+}
+.description{
+    margin-top:50px;
+    font-size: 2.3rem;
+}
+.grey{
+    color:grey;
+    font-size:15px;
+    /* margin-left:auto; */
+}
+.second{
+    /* width:100%; */
+    /* justify-content: space-around; */
+    margin-left:172px;
+    margin-top:10px;
+}
+.division{
+    color:white;
+    margin:0 250px;
+
+}
+
+.workexp{
+    font-size: 2.3rem;
+    color:blueviolet;
+}
+main{
+    /* margin-top:90px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+header{
+    width:100%;
+    position: fixed;
+    top:0;
+}
+.third table tr td ul{
+    display:flex
+}
+.third li{
+    list-style-type: none;
+    margin: 9px;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 8px;
+}
+/* .third table tr{
+    display: flex;
+    justify-content: space-around;
+} */
+.third table tr th{
+    width:50%;
+    height:10px;
+}
+.third span{
+    margin: 130px;
+}
+.third li:hover{
+    border: 2px solid blueviolet;
+    font-size:20px ;
+}
+main hr{
+    margin: 10px;
+}
+.third{
+    margin: 40px;
+}
+.vertical{
+    border-left: 2px solid white;
+    height: 30em;
+    margin-left: 90px;
+    margin-top: 3px;
+}
+.hor1{
+    border-top: 2px solid white;
+    width: 2em;
+    margin:1px;
+    position:static;
+    top:0;
+    left:0;
+    margin-top: 25px;
+}
+.hor2{
+    border-top: 2px solid white;
+    width: 2em;
+    margin:1px;
+    margin-top: 80px;
+}
+.expflex{
+    display: flex;
+}
+.hor1 p{
+    width: 100%;
+}
+.volexp{
+    display: flex;
+}
+.clubexp{
+    margin-left: 100px;
+}
+.intexp{
+    display:flex;
+}
+.intexp span{
+    padding-top: 54px;
+}
+.fourth{
+    margin-left: 170px;
+    margin-top :50px;
+
+}
+
+
+/* .proj{
+    margin:10px;
+    width:30%;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 15px;
+
+}
+.proj:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top:40px;
+}
+.topic a{
+    font-size: 1.7rem;
+    color:blueviolet;
+    text-decoration: none;
+}
+.topic{
+    margin-left: 15px;
+} */
+
+
+.proj{
+    margin:10px;
+    /* gap: 10px; */
+    width:30%;
+    /* height:300px; */
+    /* display: flex; */
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.proj:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top:40px;
+}
+.topic a{
+    font-size: 1.7rem;
+    color:blueviolet;
+    text-decoration: none;
+}
+.topic{
+    margin-left: 15px;
+}
+.fourth .a{
+    text-align: center;
+}
+
+
+
+
